@@ -7,3 +7,4 @@ describe('GET /nonexistentpage', function() {
       .get('/nonexistentpage')
       .expect(404, done); // This is a cleaner way to end test if only checking status
   });
+});
